@@ -63,7 +63,7 @@
       <file leaf-file-name="ReverseAlt.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/object/calisthenics/ReverseAlt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.76551723">
+            <state line="7" column="17" selection-start="169" selection-end="169" vertical-scroll-proportion="0.2531915">
               <folding />
             </state>
           </provider>
@@ -72,7 +72,7 @@
       <file leaf-file-name="ReverseAltTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/object/calisthenics/ReverseAltTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="69" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
+            <state line="24" column="5" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,8 +90,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/object/calisthenics/ReverseAltTest.java" />
         <option value="$PROJECT_DIR$/src/object/calisthenics/ReverseAlt.java" />
+        <option value="$PROJECT_DIR$/test/object/calisthenics/ReverseAltTest.java" />
       </list>
     </option>
   </component>
@@ -200,7 +200,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.ReverseAltTest.shouldDoNothingWithAnEmptyString">
+  <component name="RunManager" selected="JUnit.ReverseAltTest.firstWordShouldRemainUnchanged">
     <configuration default="false" name="ReverseAlt" type="Application" factoryName="Application" temporary="true">
       <extension name="snapshooter" />
       <option name="MAIN_CLASS_NAME" value="object.calisthenics.ReverseAlt" />
@@ -444,7 +444,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6618037" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -489,7 +489,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/object/calisthenics/ReverseAltTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="69" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
+        <state line="24" column="5" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -498,7 +498,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/object/calisthenics/ReverseAlt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.76551723">
+        <state line="7" column="17" selection-start="169" selection-end="169" vertical-scroll-proportion="0.2531915">
           <folding />
         </state>
       </provider>

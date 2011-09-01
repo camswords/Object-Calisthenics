@@ -1,34 +1,32 @@
 package object.calisthenics;
 
-// this code has been modified code found on http://www.neiljohan.com/java
+// this code is a modified example originating from code found on http://www.neiljohan.com/java
 
-import java.util.StringTokenizer;
+import java.util.List;
 
 
 public class ReverseAlt {
 
-    public String reverseSecondWords(String tLine) {
+    public String reverseSecondWords(List<String> words) {
         String result = "";
 
-        StringTokenizer tTokensOnLine = new StringTokenizer(tLine);
-        int noToks = tTokensOnLine.countTokens();
+        int noWords = words.size();
 
         int reverseWord = 0;
 
-        for (int wordNumber = 0; wordNumber < noToks; wordNumber++) {
+        for (int wordNumber = 0; wordNumber < noWords; wordNumber++) {
 
-            String tThisToken = tTokensOnLine.nextToken();
-            String tThisWord = tThisToken;
+            String thisWord = words.get(wordNumber);
 
             if (reverseWord == 0) {
-                result += " " + tThisToken + " ";
+                result += " " + thisWord + " ";
                 reverseWord = 1;
             } else {
 
-                int tStringLength = tThisWord.length();
+                int stringLength = thisWord.length();
 
-                for (int tCharNumber = tStringLength; tCharNumber > 0; tCharNumber--) {
-                    result += tThisWord.charAt(tCharNumber - 1);
+                for (int charNumber = stringLength; charNumber > 0; charNumber--) {
+                    result += thisWord.charAt(charNumber - 1);
                 }
 
                 reverseWord = 0;
