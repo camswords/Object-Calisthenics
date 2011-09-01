@@ -63,7 +63,27 @@
       <file leaf-file-name="ReverseAlt.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/object/calisthenics/ReverseAlt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.7234042">
+            <state line="10" column="12" selection-start="292" selection-end="292" vertical-scroll-proportion="0.3617021">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Words.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/object/calisthenics/Words.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="24" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Word.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/object/calisthenics/Word.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="5" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -72,7 +92,7 @@
       <file leaf-file-name="ReverseAltTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/object/calisthenics/ReverseAltTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="9" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
+            <state line="12" column="43" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,8 +110,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/object/calisthenics/Word.java" />
         <option value="$PROJECT_DIR$/test/object/calisthenics/WordsBuilder.java" />
+        <option value="$PROJECT_DIR$/src/object/calisthenics/Word.java" />
         <option value="$PROJECT_DIR$/test/object/calisthenics/ReverseAltTest.java" />
         <option value="$PROJECT_DIR$/src/object/calisthenics/Words.java" />
         <option value="$PROJECT_DIR$/src/object/calisthenics/ReverseAlt.java" />
@@ -196,6 +216,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
@@ -209,7 +230,7 @@
       <recent name="object.calisthenics" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReverseAltTest.shouldDoNothingWithAnEmptyString">
+  <component name="RunManager" selected="JUnit.ReverseAltTest">
     <configuration default="false" name="ReverseAlt" type="Application" factoryName="Application" temporary="true">
       <extension name="snapshooter" />
       <option name="MAIN_CLASS_NAME" value="object.calisthenics.ReverseAlt" />
@@ -475,7 +496,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39920425" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -525,13 +546,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/object/calisthenics/Word.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="24" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/object/calisthenics/WordsBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="25" selection-start="547" selection-end="547" vertical-scroll-proportion="0.6744681">
@@ -548,18 +562,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/object/calisthenics/Words.java">
+    <entry file="file://$PROJECT_DIR$/test/object/calisthenics/ReverseAltTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="16" selection-start="255" selection-end="255" vertical-scroll-proportion="0.506383">
+        <state line="12" column="43" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/object/calisthenics/ReverseAltTest.java">
+    <entry file="file://$PROJECT_DIR$/src/object/calisthenics/Word.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="9" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
+        <state line="8" column="5" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/object/calisthenics/Words.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="24" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -568,7 +589,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/object/calisthenics/ReverseAlt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.7234042">
+        <state line="10" column="12" selection-start="292" selection-end="292" vertical-scroll-proportion="0.3617021">
           <folding />
         </state>
       </provider>

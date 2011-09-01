@@ -7,7 +7,6 @@ import static org.junit.Assert.assertThat;
 
 public class ReverseAltTest {
 
-
     @Test
     public void shouldDoNothingWithAnEmptyString() {
         Words words = new WordsBuilder().withNoWords().build();
@@ -17,6 +16,6 @@ public class ReverseAltTest {
     @Test
     public void firstWordShouldRemainUnchanged() {
         Words words = new WordsBuilder().withWords("my", "sentence", "has", "been", "reversed").build();
-        assertThat(new ReverseAlt().reverseSecondWords(words), equalTo(" my ecnetnes has neeb reversed "));
+        assertThat(new ReverseAlt().reverseSecondWords(words), equalTo(" ecnetnes neeb"));
     }
 }

@@ -6,13 +6,9 @@ public class ReverseAlt {
 
     public String reverseSecondWords(Words words) {
         String result = "";
-        boolean reverseWord = false;
 
-        for(Word word : words) {
-
-            if (reverseWord) {
-                result += word.reverse();
-            }
+        for(Word word : words.evenWords()) {
+            result += " " + word.reverse();
         }
 
         return result;
