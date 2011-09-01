@@ -9,31 +9,24 @@ public class ReverseAlt {
 
     public String reverseSecondWords(List<String> words) {
         String result = "";
-
-        int noWords = words.size();
-
         int reverseWord = 0;
 
-        for (int wordNumber = 0; wordNumber < noWords; wordNumber++) {
+        for (int wordNumber = 0; wordNumber < words.size(); wordNumber++) {
 
             String thisWord = words.get(wordNumber);
 
             if (reverseWord == 0) {
                 reverseWord = 1;
             } else {
-
-                int stringLength = thisWord.length();
-
                 result += " ";
-                for (int charNumber = stringLength; charNumber > 0; charNumber--) {
+
+                for (int charNumber = thisWord.length(); charNumber > 0; charNumber--) {
                     result += thisWord.charAt(charNumber - 1);
                 }
-
 
                 reverseWord = 0;
             }
         }
-
         return result;
     }
 }
