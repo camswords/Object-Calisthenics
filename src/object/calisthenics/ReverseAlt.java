@@ -19,15 +19,16 @@ public class ReverseAlt {
             String thisWord = words.get(wordNumber);
 
             if (reverseWord == 0) {
-                result += " " + thisWord + " ";
                 reverseWord = 1;
             } else {
 
                 int stringLength = thisWord.length();
 
+                result += " ";
                 for (int charNumber = stringLength; charNumber > 0; charNumber--) {
                     result += thisWord.charAt(charNumber - 1);
                 }
+
 
                 reverseWord = 0;
             }
