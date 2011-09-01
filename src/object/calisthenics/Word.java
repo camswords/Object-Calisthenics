@@ -8,13 +8,17 @@ public class Word {
         this.word = word;
     }
 
-    public String reverse() {
+    public Word reverse() {
         String reversed = "";
 
         for (int charNumber = word.length(); charNumber > 0; charNumber--) {
             reversed += word.charAt(charNumber - 1);
         }
 
-        return reversed;
+        return new Word(reversed);
+    }
+
+    public String describe() {
+        return word;
     }
 }

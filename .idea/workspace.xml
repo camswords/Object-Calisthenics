@@ -60,19 +60,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ReverseAlt.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/object/calisthenics/ReverseAlt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="12" selection-start="292" selection-end="292" vertical-scroll-proportion="0.3617021">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Words.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/object/calisthenics/Words.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="24" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0">
+            <state line="7" column="0" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,19 +71,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Word.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/object/calisthenics/Word.java">
+      <file leaf-file-name="WordsTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/object/calisthenics/WordsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="5" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReverseAltTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/object/calisthenics/ReverseAltTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="43" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
+            <state line="7" column="18" selection-start="165" selection-end="165" vertical-scroll-proportion="0.2531915">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,8 +93,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/test/object/calisthenics/WordsBuilder.java" />
-        <option value="$PROJECT_DIR$/src/object/calisthenics/Word.java" />
         <option value="$PROJECT_DIR$/test/object/calisthenics/ReverseAltTest.java" />
+        <option value="$PROJECT_DIR$/src/object/calisthenics/Word.java" />
+        <option value="$PROJECT_DIR$/test/object/calisthenics/WordsTest.java" />
         <option value="$PROJECT_DIR$/src/object/calisthenics/Words.java" />
         <option value="$PROJECT_DIR$/src/object/calisthenics/ReverseAlt.java" />
       </list>
@@ -230,7 +213,7 @@
       <recent name="object.calisthenics" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReverseAltTest">
+  <component name="RunManager" selected="JUnit.WordsTest">
     <configuration default="false" name="ReverseAlt" type="Application" factoryName="Application" temporary="true">
       <extension name="snapshooter" />
       <option name="MAIN_CLASS_NAME" value="object.calisthenics.ReverseAlt" />
@@ -248,13 +231,13 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="ReverseAltTest.firstWordShouldRemainUnchanged" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="WordsTest.firstWordShouldRemainUnchanged" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="snapshooter" />
       <module name="ObjectCalisthenics" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="object.calisthenics" />
-      <option name="MAIN_CLASS_NAME" value="object.calisthenics.ReverseAltTest" />
+      <option name="MAIN_CLASS_NAME" value="object.calisthenics.WordsTest" />
       <option name="METHOD_NAME" value="firstWordShouldRemainUnchanged" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -276,13 +259,13 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="ReverseAltTest.shouldDoNothingWithAnEmptyString" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="WordsTest.shouldDoNothingWithAnEmptyString" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="snapshooter" />
       <module name="ObjectCalisthenics" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="object.calisthenics" />
-      <option name="MAIN_CLASS_NAME" value="object.calisthenics.ReverseAltTest" />
+      <option name="MAIN_CLASS_NAME" value="object.calisthenics.WordsTest" />
       <option name="METHOD_NAME" value="shouldDoNothingWithAnEmptyString" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -298,13 +281,13 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="ReverseAltTest" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="WordsTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="snapshooter" />
       <module name="ObjectCalisthenics" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="object.calisthenics" />
-      <option name="MAIN_CLASS_NAME" value="object.calisthenics.ReverseAltTest" />
+      <option name="MAIN_CLASS_NAME" value="object.calisthenics.WordsTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -562,35 +545,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/object/calisthenics/ReverseAltTest.java">
+    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/classes.jar!/java/lang/Object.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="43" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="19" column="28" selection-start="571" selection-end="571" vertical-scroll-proportion="0.3319149">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/object/calisthenics/Word.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="5" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
+        <state line="21" column="20" selection-start="440" selection-end="440" vertical-scroll-proportion="0.7468085">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/object/calisthenics/Words.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="24" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0">
+        <state line="7" column="0" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/object/calisthenics/ReverseAlt.java">
+    <entry file="file://$PROJECT_DIR$/test/object/calisthenics/WordsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="12" selection-start="292" selection-end="292" vertical-scroll-proportion="0.3617021">
-          <folding />
+        <state line="7" column="18" selection-start="165" selection-end="165" vertical-scroll-proportion="0.2531915">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
