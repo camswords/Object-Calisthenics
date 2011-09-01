@@ -63,7 +63,7 @@
       <file leaf-file-name="ReverseAlt.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/object/calisthenics/ReverseAlt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="271" selection-end="271" vertical-scroll-proportion="0.32553193">
+            <state line="20" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.7234042">
               <folding />
             </state>
           </provider>
@@ -91,10 +91,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/object/calisthenics/Word.java" />
-        <option value="$PROJECT_DIR$/src/object/calisthenics/ReverseAlt.java" />
         <option value="$PROJECT_DIR$/test/object/calisthenics/WordsBuilder.java" />
         <option value="$PROJECT_DIR$/test/object/calisthenics/ReverseAltTest.java" />
         <option value="$PROJECT_DIR$/src/object/calisthenics/Words.java" />
+        <option value="$PROJECT_DIR$/src/object/calisthenics/ReverseAlt.java" />
       </list>
     </option>
   </component>
@@ -568,7 +568,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/object/calisthenics/ReverseAlt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="271" selection-end="271" vertical-scroll-proportion="0.32553193">
+        <state line="20" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.7234042">
           <folding />
         </state>
       </provider>

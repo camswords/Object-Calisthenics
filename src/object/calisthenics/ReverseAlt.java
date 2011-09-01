@@ -9,15 +9,9 @@ public class ReverseAlt {
         boolean reverseWord = false;
 
         for(Word word : words) {
-            String thisWord = word.getWord();
 
-            if (!reverseWord) {
-                result += " " + thisWord + " ";
-                reverseWord = true;
-            } else {
+            if (reverseWord) {
                 result += word.reverse();
-                
-                reverseWord = false;
             }
         }
 
