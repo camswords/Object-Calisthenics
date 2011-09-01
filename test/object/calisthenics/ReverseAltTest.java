@@ -14,13 +14,15 @@ public class ReverseAltTest {
 
     @Test
     public void shouldDoNothingWithAnEmptyString() {
-        ArrayList<String> words = new ArrayList<String>();
+        List<Word> words = new ArrayList<Word>();
         assertThat(new ReverseAlt().reverseSecondWords(words), equalTo(""));
     }
 
     @Test
     public void firstWordShouldRemainUnchanged() {
-        List<String> words = Arrays.asList("my", "sentence", "has", "been", "reversed");
+        List<Word> words = Arrays.asList(new Word("my"), new Word("sentence"),
+                                         new Word("has"), new Word("been"),
+                                         new Word("reversed"));
         assertThat(new ReverseAlt().reverseSecondWords(words), equalTo(" my ecnetnes has neeb reversed "));
     }
 }

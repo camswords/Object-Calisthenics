@@ -63,7 +63,16 @@
       <file leaf-file-name="ReverseAlt.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/object/calisthenics/ReverseAlt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="17" selection-start="169" selection-end="169" vertical-scroll-proportion="0.2531915">
+            <state line="19" column="20" selection-start="518" selection-end="518" vertical-scroll-proportion="0.43404254">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Word.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/object/calisthenics/Word.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="24" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -72,7 +81,7 @@
       <file leaf-file-name="ReverseAltTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/object/calisthenics/ReverseAltTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="5" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0">
+            <state line="24" column="41" selection-start="710" selection-end="710" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,8 +99,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/object/calisthenics/ReverseAlt.java" />
         <option value="$PROJECT_DIR$/test/object/calisthenics/ReverseAltTest.java" />
+        <option value="$PROJECT_DIR$/src/object/calisthenics/Word.java" />
+        <option value="$PROJECT_DIR$/src/object/calisthenics/ReverseAlt.java" />
       </list>
     </option>
   </component>
@@ -199,6 +209,11 @@
     <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="object.calisthenics" />
+    </key>
   </component>
   <component name="RunManager" selected="JUnit.ReverseAltTest.firstWordShouldRemainUnchanged">
     <configuration default="false" name="ReverseAlt" type="Application" factoryName="Application" temporary="true">
@@ -489,16 +504,23 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/object/calisthenics/ReverseAltTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="5" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0">
+        <state line="24" column="41" selection-start="710" selection-end="710" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/object/calisthenics/Word.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="24" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/object/calisthenics/ReverseAlt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="169" selection-end="169" vertical-scroll-proportion="0.2531915">
+        <state line="19" column="20" selection-start="518" selection-end="518" vertical-scroll-proportion="0.43404254">
           <folding />
         </state>
       </provider>

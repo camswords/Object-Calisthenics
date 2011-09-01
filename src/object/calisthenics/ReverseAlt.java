@@ -7,29 +7,20 @@ import java.util.List;
 
 public class ReverseAlt {
 
-    public String reverseSecondWords(List<String> words) {
+    public String reverseSecondWords(List<Word> words) {
         String result = "";
+        boolean reverseWord = false;
 
-        int noWords = words.size();
+        for(Word word : words) {
+            String thisWord = word.getWord();
 
-        int reverseWord = 0;
-
-        for (int wordNumber = 0; wordNumber < noWords; wordNumber++) {
-
-            String thisWord = words.get(wordNumber);
-
-            if (reverseWord == 0) {
+            if (!reverseWord) {
                 result += " " + thisWord + " ";
-                reverseWord = 1;
+                reverseWord = true;
             } else {
-
-                int stringLength = thisWord.length();
-
-                for (int charNumber = stringLength; charNumber > 0; charNumber--) {
-                    result += thisWord.charAt(charNumber - 1);
-                }
-
-                reverseWord = 0;
+                result += word.reverse();
+                
+                reverseWord = false;
             }
         }
 
