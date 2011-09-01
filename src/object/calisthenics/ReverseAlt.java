@@ -2,12 +2,9 @@ package object.calisthenics;
 
 // this code is a modified example originating from code found on http://www.neiljohan.com/java
 
-import java.util.List;
-
-
 public class ReverseAlt {
 
-    public String reverseSecondWords(List<Word> words) {
+    public String reverseSecondWords(Words words) {
         String result = "";
         boolean reverseWord = false;
 

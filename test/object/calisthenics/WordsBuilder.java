@@ -22,8 +22,8 @@ public class WordsBuilder {
         return this;
     }
 
-    public List<Word> build() {
-        return words;
+    public Words build() {
+        return new Words(words);
     }
 
 }
