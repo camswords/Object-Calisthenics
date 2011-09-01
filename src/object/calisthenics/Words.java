@@ -1,12 +1,11 @@
 package object.calisthenics;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
+
 // this code is a modified example originating from code found on http://www.neiljohan.com/java
 
-
-public class Words implements Iterable<Word> {
+public class Words {
 
     private final List<Word> words;
 
@@ -14,8 +13,8 @@ public class Words implements Iterable<Word> {
         this.words = words;
     }
 
-    public Iterator<Word> iterator() {
-        return words.iterator();
+    public Words reverseEvens() {
+        return evenWords().reversed();
     }
 
     public Words evenWords() {
@@ -30,7 +29,7 @@ public class Words implements Iterable<Word> {
         return new Words(evens);
     }
 
-    public Words reverse() {
+    public Words reversed() {
         List<Word> reversed = new ArrayList<Word>();
 
         for (Word word : words) {
@@ -48,9 +47,5 @@ public class Words implements Iterable<Word> {
         }
 
         return joined;
-    }
-
-    public String reverseEvens() {
-        return evenWords().reverse().join();
     }
 }
