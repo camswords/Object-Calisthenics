@@ -2,8 +2,6 @@ package object.calisthenics;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import static org.hamcrest.CoreMatchers.equalTo;
@@ -14,15 +12,13 @@ public class ReverseAltTest {
 
     @Test
     public void shouldDoNothingWithAnEmptyString() {
-        List<Word> words = new ArrayList<Word>();
+        List<Word> words = new WordsBuilder().withNoWords().build();
         assertThat(new ReverseAlt().reverseSecondWords(words), equalTo(""));
     }
 
     @Test
     public void firstWordShouldRemainUnchanged() {
-        List<Word> words = Arrays.asList(new Word("my"), new Word("sentence"),
-                                         new Word("has"), new Word("been"),
-                                         new Word("reversed"));
+        List<Word> words = new WordsBuilder().withWords("my", "sentence", "has", "been", "reversed").build();
         assertThat(new ReverseAlt().reverseSecondWords(words), equalTo(" my ecnetnes has neeb reversed "));
     }
 }
