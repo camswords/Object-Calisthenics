@@ -12,11 +12,11 @@ public class WordsBuilder {
         return this;
     }
 
-    public WordsBuilder withWords(String... words) {
-        this.words = new ArrayList<Word>();
+    public WordsBuilder withWords(String... otherWords) {
+        words = new ArrayList<Word>();
 
-        for (String word : words) {
-            this.words.add(new Word(word));
+        for (String otherWord : otherWords) {
+            words.add(new Word(otherWord));
         }
 
         return this;

@@ -14,26 +14,26 @@ public class Words {
     }
 
     public Words reverseEvens() {
-        return evenWords().reversed();
+        return evenWords().eachReversed();
     }
 
     public Words evenWords() {
         List<Word> evens = new ArrayList<Word>();
 
-        for (int i = 0; i < words.size(); i++) {
-            if ( (i + 1) % 2 == 0) {
-                evens.add(words.get(i));
-            }
+        for (int i = 1; i < words.size(); i += 2) {
+            Word evenWord = words.get(i);
+            evens.add(evenWord);
         }
 
         return new Words(evens);
     }
 
-    public Words reversed() {
+    public Words eachReversed() {
         List<Word> reversed = new ArrayList<Word>();
 
         for (Word word : words) {
-            reversed.add(word.reverse());
+            Word reversedWord = word.reverse();
+            reversed.add(reversedWord);
         }
 
         return new Words(reversed);
