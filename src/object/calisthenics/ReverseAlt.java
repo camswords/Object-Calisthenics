@@ -12,7 +12,6 @@ public class ReverseAlt {
         int reverseWord = 0;
 
         for (int wordNumber = 0; wordNumber < words.size(); wordNumber++) {
-
             String thisWord = words.get(wordNumber);
 
             if (reverseWord == 0) {
